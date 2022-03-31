@@ -22,23 +22,23 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : HeatNotBurn.gr
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Όλα τα νέα για τα προϊόντα θέρμανσης καπνού!
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
+lang: el # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
+  type      : organization # "person" (default), "organization"
+  name      : HeatNotBurn.gr
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
+  bio       : # I am an amazing person.
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -55,8 +55,8 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
-repository_tree: master
+repository: #user_name/repo_name
+repository_tree: #master
 
 
 ## => Paths
@@ -72,6 +72,7 @@ paths:
 ##############################
 ## excerpt
 excerpt_separator: <!--more-->
+excerpt_type: html
 
 ## license
 license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"

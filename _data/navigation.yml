@@ -6,6 +6,7 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
+      el      : &EL       Αρχείο δημοσιεύσεων
       zh-Hans : &ZH_HANS  归档
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
@@ -32,6 +33,7 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
+      el      : &EL       Σχετικά
       zh-Hans : &ZH_HANS  关于
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
@@ -50,3 +52,58 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Devices Comparison
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      el      : &EL       Σύγκριση συσκευών
+      zh-Hans : &ZH_HANS
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO
+      ko-KR   : *KO
+      fr      : &FR
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      tr      : &TR
+      # @end locale config
+    url: /comparison-devices.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Sticks Comparison
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      el      : &EL       Σύγκριση sticks
+      zh-Hans : &ZH_HANS
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO
+      ko-KR   : *KO
+      fr      : &FR
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      tr      : &TR
+      # @end locale config
+    url: /comparison-sticks.html
+
