@@ -52,13 +52,14 @@
 			});
 
 			$('#button-under-18').on('click', function() {
-				setCookie("ageVerify", "under18", 10);
+				//setCookie("ageVerify", "under18", 10);
         actionsUnder18();
 			});
 		}
 	}
 
   function actionsUnder18() {
+	$('#modal-text').text('Δεν είναι δυνατή η πρόσβασή σου στην ιστοσελίδα.');
     $('#button-over-18').hide();
     $('#button-under-18').hide();
   }
