@@ -15,7 +15,18 @@ layout: none
     {%- include scripts/variables.html -%}
   </head>
   <body>
-    <div class="root" data-is-touch="false">
+    <div id="age-verification-modal" style="display: none;" class="Modal">
+      <!-- Modal content -->
+      <div class="Modal-content">
+<!--        <span id="closeModal" class="Close">&times;</span>-->
+        <p>Η ιστοσελίδα απευθύνεται σε άτομα άνω των 18. Παρακαλώ επιβεβαιώστε.</p>
+        <div class="buttons">
+          <a id="button-under-18" class="button button--secondary button--rounded">Είμαι κάτω των 18 ετών</a>
+          <a id="button-over-18" class="button button--primary button--rounded">Είμαι άνω των 18 ετών</a>
+        </div>
+      </div>
+    </div>
+    <div class="root" style="display: none;" data-is-touch="false">
       {{ content }}
     </div>
     <script>
