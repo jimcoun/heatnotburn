@@ -28,6 +28,15 @@ layout: none
     </div>
     <div class="root" style="display: none;" data-is-touch="false">
       {{ content }}
+      <div class="card cookie-notification">
+        <div class="card__content">
+          <div class="card__header">
+            <h4>Χρήση cookies</h4>
+          </div>
+          <p>Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία σας στον ιστότοπό μας. Με την περιήγηση στον ιστότοπο, συμφωνείτε με τη χρήση των cookies.</p>
+          <a id="button-cookies" class="button button--primary button--rounded">Αποδοχή</a>
+        </div>
+      </div>
     </div>
     <script>
       {%- include scripts/common.js -%}
