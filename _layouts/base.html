@@ -19,10 +19,10 @@ layout: none
       <!-- Modal content -->
       <div class="Modal-content">
 <!--        <span id="closeModal" class="Close">&times;</span>-->
-        <p id="modal-text">Για να έχεις πρόσβαση στην ιστοσελίδα θα πρέπει να είσαι άνω των 18 ετών και καπνιστής/καπνίστρια.</p>
+        <p id="modal-text">Για να έχεις πρόσβαση στην ιστοσελίδα θα πρέπει να είσαι άνω των 18 ετών.</p>
         <div class="buttons">
           <a id="button-under-18" class="button button--secondary button--rounded">Είμαι κάτω των 18 ετών</a>
-          <a id="button-over-18" class="button button--primary button--rounded">Είμαι άνω των 18 ετών και καπνιστής</a>
+          <a id="button-over-18" class="button button--primary button--rounded">Είμαι άνω των 18 ετών</a>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ layout: none
     </div>
     <script>
       {%- include scripts/common.js -%}
-      {%- include age-verification/age-verification.js -%}
+      {%- include cookie-scripts.js -%}
     </script>
   </body>
 </html>
