@@ -41,7 +41,7 @@ el: &EL
   LAST_UPDATED            : "Last updated"
   PREVIOUS                : "ΠΡΟΗΓΟΥΜΕΝΟ"
   NEXT                    : "ΕΠΟΜΕΝΟ"
-  ARTICLE_DATE_FORMAT     : "%d/%m/%Y"
+  ARTICLE_DATE_FORMAT     : "%d %b %Y"
   ARTICLE_LIST_DATE_FORMAT: "%b %d"
   STATISTICS              : "[POST_COUNT] δημοσιευμένα άρθρα, [PAGE_COUNT] σελίδες."
   LICENSE_ANNOUNCE        : "Το περιεχόμενο της σελίδας παρέχεται με άδεια [LICENSE]."
