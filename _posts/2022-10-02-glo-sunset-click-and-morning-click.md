@@ -1,5 +1,6 @@
 ---
 title: Δύο νέες γεύσεις Neo διαθέσιμες στην ελληνική αγορά
+image: sunset-morning-click.jpg
 tags: Glo
 ---
 

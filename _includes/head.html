@@ -2,6 +2,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+{% if page.image %}
+<meta content="{{ site.url }}/assets/images/{{ page.image }}" property="og:image">
+{% else %}
+<meta content="{{ site.url }}/assets/images/heatnotburn_logo.jpg" property="og:image">
+{% endif %}
+
 {%- include snippets/get-article-title.html article=page -%}
 <title>{%- if __return -%}{{ __return }} - {{ site.title }}{%- else -%}{{ site.title }}{%- endif -%}</title>
 
